@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec  2 19:21:53 2022
+# Process ID: 66096
+# Current directory: E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.runs/synth_1
+# Command line: vivado.exe -log frequency_calculate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source frequency_calculate.tcl
+# Log file: E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.runs/synth_1/frequency_calculate.vds
+# Journal file: E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source frequency_calculate.tcl -notrace

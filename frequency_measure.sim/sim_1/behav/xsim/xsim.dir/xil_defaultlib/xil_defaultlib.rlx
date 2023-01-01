@@ -1,0 +1,7 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+E:/LZY_FPGA/fre_tb.v,1669984891,verilog,,,,fre_tb,,,,,,,,
+E:/LZY_FPGA/frequency_calculate2.v,1669981023,verilog,,E:/LZY_FPGA/fre_tb.v,,frequency_calculate,,,,,,,,
+E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,

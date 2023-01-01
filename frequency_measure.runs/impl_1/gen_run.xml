@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1669980191">
+  <File Type="ROUTE-PWR" Name="frequency_calculate_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="frequency_calculate.tcl"/>
+  <File Type="PWROPT-DCP" Name="frequency_calculate_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="frequency_calculate_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="frequency_calculate_reports.tcl"/>
+  <File Type="BG-DRC" Name="frequency_calculate.drc"/>
+  <File Type="OPT-HWDEF" Name="frequency_calculate.hwdef"/>
+  <File Type="OPT-DCP" Name="frequency_calculate_opt.dcp"/>
+  <File Type="OPT-DRC" Name="frequency_calculate_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="frequency_calculate_placed.dcp"/>
+  <File Type="PLACE-IO" Name="frequency_calculate_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="frequency_calculate_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="frequency_calculate_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="frequency_calculate_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="frequency_calculate_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="frequency_calculate_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="frequency_calculate_physopt.dcp"/>
+  <File Type="BG-BIT" Name="frequency_calculate.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="frequency_calculate_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="frequency_calculate_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="frequency_calculate_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="frequency_calculate_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="frequency_calculate_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="frequency_calculate_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="frequency_calculate.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="frequency_calculate_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="frequency_calculate.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="frequency_calculate_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="frequency_calculate.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="frequency_calculate_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="frequency_calculate.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="frequency_calculate_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="frequency_calculate_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="frequency_calculate_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="frequency_calculate_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="frequency_calculate_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="frequency_calculate_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="frequency_calculate_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="frequency_calculate.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="frequency_calculate_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="frequency_calculate_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="frequency_calculate.nky"/>
+  <File Type="BITSTR-BMM" Name="frequency_calculate_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="frequency_calculate.mmi"/>
+  <File Type="BITSTR-LTX" Name="frequency_calculate.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="frequency_calculate.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="E:/LZY_FPGA/frequency_calculate2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="frequency_calculate"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/freq.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/freq.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

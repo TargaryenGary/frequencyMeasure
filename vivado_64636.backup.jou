@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec  2 18:31:52 2022
+# Process ID: 64636
+# Current directory: E:/LZY_FPGA/vivado project/frequency_measure
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent63280 E:\LZY_FPGA\vivado project\frequency_measure\frequency_measure.xpr
+# Log file: E:/LZY_FPGA/vivado project/frequency_measure/vivado.log
+# Journal file: E:/LZY_FPGA/vivado project/frequency_measure\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.xpr}
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.runs/impl_1/frequency_calculate.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/LZY_FPGA/vivado project/frequency_measure/frequency_measure.runs/impl_1/frequency_calculate.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

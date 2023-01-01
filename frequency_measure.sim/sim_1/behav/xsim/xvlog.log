@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/LZY_FPGA/frequency_calculate2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_calculate
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/LZY_FPGA/fre_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fre_tb
